@@ -31,7 +31,7 @@ Please install the remaining libraries as needed.. (´｡･д人)
 
 ## 🔧 Usage
 
-### 1. launch
+### 1. Launch
 
 ```bash
 python main.py

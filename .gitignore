@@ -1,0 +1,13 @@
+# IDEの設定ファイル
+**/__pycache__/**
+.vscode/*
+
+# 動画・テキストデータ
+*.mp4
+*.avi
+*.mov
+*.csv
+*.txt
+
+# macOSの不要ファイル
+.DS_Store

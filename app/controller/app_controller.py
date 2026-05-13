@@ -341,7 +341,7 @@ class AppController(QObject):
         is_subsequent_update = self.view.apply_subsequent_update_id_checkbox.isChecked()
 
         # 確認用メッセージの表示
-        confirm_text =f"<b>Delete tracking ID：{target_id}'s data {"subsequent to" if is_subsequent_update else "for"} this frame ?<b>"
+        confirm_text =f"<b>Delete tracking ID：{target_id}'s data { 'subsequent to' if is_subsequent_update else 'for' } this frame ? <b>"
         reply = QMessageBox.question(
             self.view,
             f"Confirm to Delete ID {target_id} (Frame: {current_frame})",
